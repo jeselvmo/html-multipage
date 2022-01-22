@@ -1,0 +1,9 @@
+.vscode
+.idea
+.DS_Store
+node_modules
+logs
+*.log
+package-lock.json
+yarn.lock
+public
