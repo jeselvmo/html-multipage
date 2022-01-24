@@ -5,19 +5,16 @@ module.exports = {
     es6: true,
   },
   extends: ['eslint:recommended', 'plugin:import/recommended'],
-  globals: {},
+  globals: {
+    $: true,
+  },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   plugins: ['import'],
-  rules: {
-    'no-console': 1,
-  },
+  rules: {},
   settings: {
     'import/resolver': 'webpack',
   },
